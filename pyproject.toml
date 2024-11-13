@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "frozenlake-streamlit"
+version = "0.1.0"
+description = "displaying RL algorithms in webpage by using streamlit"
+authors = ["mori <moripiri1234@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.40.1"
+gymnasium = {version = ">=1.0.0", extras=['toy-text']}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
