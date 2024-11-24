@@ -6,7 +6,7 @@ authors = ["mori <moripiri1234@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python =  ">=3.9,<3.9.7 || >3.9.7,<=3.12.4"
+python =  ">=3.9,<3.9.7 || >3.9.7,<=3.12.7"
 streamlit = "^1.40.1"
 gymnasium = {version = "^0.26.1"}
 numpy = "^1.26.1"
