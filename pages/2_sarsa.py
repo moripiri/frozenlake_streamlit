@@ -87,8 +87,8 @@ staying_reward = st.sidebar.number_input(
         key="staying_reward",
         help="reward to give when player is on the ice"
     )
-speed_display = {0.5: 'slow', 0.1: 'normal', 0.01: 'fast'}
-speed = st.sidebar.pills(label="Speed", options=[0.5, 0.1, 0.01], format_func=lambda x: speed_display[x],  default=0.1)
+speed_display = {0.1: 'slow', 0.05: 'normal', 0.005: 'fast'}
+speed = st.sidebar.pills(label="Speed", options=[0.1, 0.05, 0.005], format_func=lambda x: speed_display[x],  default=0.05)
 
 
 episode = 0
