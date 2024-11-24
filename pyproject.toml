@@ -6,9 +6,13 @@ authors = ["mori <moripiri1234@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.12"
+python =  ">=3.9,<3.9.7 || >3.9.7,<=3.12.4"
 streamlit = "^1.40.1"
-gymnasium = {version = ">=1.0.0", extras=['toy-text']}
+gymnasium = {version = "^0.26.1"}
+numpy = "^1.26.1"
+matplotlib = "^3.8.0"
+pygame = "^2.3.1"
+PyQt5 = "^5.10"
 
 [build-system]
 requires = ["poetry-core"]
