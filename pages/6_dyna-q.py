@@ -156,7 +156,7 @@ if reset:
 
                 with st.container():
                     st.subheader(f"Episode {i}, Step {timestep}")
-                    st.pyplot(env.render(q=q), clear_figure=True)
+                    st.pyplot(env.render(q=q, model_r=model_r, model_ns=model_ns), clear_figure=True)
 
                 s = ns
                 dones = d or t
